@@ -1,0 +1,233 @@
+
+@import url('https://rsms.me/inter/inter.css');
+
+
+body {
+    background-color:#00001a;
+    background-image: url("images/BG.png");
+    background-repeat: repeat;
+}
+.ToolbarContainer {
+
+    top: 0;
+
+}
+
+
+.Toolbar {
+    z-index:2;
+    position: fixed;
+    background-color: #00004Af0;
+    justify-content:space-evenly;
+    display: flex;
+    top: 0; 
+    width: 100%;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+
+
+}
+
+.Toolbar .Item {
+
+    font-family: 'Inter', sans-serif; 
+    font-size: 1vw;
+
+    color: #FFF728;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .Toolbar .Item {
+      font-size: 4vw;
+    }
+  }
+
+.Toolbar .Item:hover {
+
+    color: #0077ff;
+
+}
+
+.Toolbar .Item  > img{
+   
+    height: 1.5vw;
+
+}
+
+.page {
+    font-family: 'Inter', sans-serif; 
+    background-color: #00003A;
+    color: #ffffff;
+    font-size: 1vw;
+    margin-left: 10vw;
+    margin-right: 10vw; 
+    border-width: 1vw;
+    border-style: solid;
+    border-color:#00003A;
+
+}
+@media only screen and (max-width: 1200px) {
+    .page { 
+        margin-left: 1vw;
+        margin-right: 1vw; 
+        font-size: 3vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .Toolbar .Item  > img{
+      height: 4vw;
+    }
+}
+
+.Home {
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter Black', sans-serif; 
+    color: #ffffff;
+    z-index:1;
+    height: 100%;
+
+}
+
+.Home .WelcomeMessage {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2vw;
+
+    text-align: center;
+    text-shadow: 0.25vw 0.25vw 0.25vw #000000;
+
+}
+@media only screen and (max-width: 1200px) {
+    .Home .WelcomeMessage{
+        font-size: 3vw;
+    }
+}
+
+.Home .WelcomeMessage > h1{
+
+    font-size: 8vw;
+    color: #FFF728;
+    white-space: nowrap;
+    line-height: 1vw;
+}
+@media only screen and (max-width: 1200px) {
+    .Home .WelcomeMessage > h1{
+      font-size: 10vw;
+
+    }
+}
+
+.Home .WelcomeMessage > h2{
+
+    font-size: 2.5vw;
+    color: #0077ff;
+    white-space: nowrap;
+    line-height: 1vw;
+
+}
+@media only screen and (max-width: 1200px) {
+    .Home .WelcomeMessage > h2{
+      font-size: 4vw;
+
+    }
+}
+
+
+
+
+.Home .WelcomeMessage > img{
+
+    width: 25vw;
+    margin: 0px;
+
+}
+
+
+.Home .WelcomeVideo {
+
+    position: relative;
+    height: 30vw;
+    overflow: hidden;
+
+    font-size: 4vw;
+
+}
+
+.HomeBottom {
+    text-align: center;
+    font-size: 1.5vw;
+}
+@media only screen and (max-width: 1200px) {
+    .HomeBottom {
+      font-size: 3vw;
+
+    }
+}
+
+a {
+    text-decoration: none ;
+    color: inherit;
+}
+
+#CityMontageVideo {
+
+    width: 100%;
+
+}
+
+.Story > h1{
+    font-family: 'Inter Black', sans-serif; 
+    color:#FFF728;
+}
+
+.Story > h2{
+    font-family: 'Inter Black', sans-serif; 
+    font-style: italic;
+    color:#ccc620;
+}
+.Story > h3{
+    font-family: 'Inter ExtraBold', sans-serif; 
+    color:#a39f19;
+}
+.Story > h4{
+    font-family: 'Inter SemiBold', sans-serif; 
+}
+
+.Story .Profile{
+    display: flex;
+    padding-bottom: 1vw;
+}
+@media only screen and (max-width: 1200px) {
+    .Story .Profile{
+        display: grid;
+        padding-bottom: 2vw;
+    }
+}
+
+.Story .Profile .Info{
+    display: grid;
+}
+.Story .Profile > img{
+    width: 8vw;
+    height: 8vw;
+    padding-right: 1vw;
+    aspect-ratio: 1 / 1 ;
+
+}
+@media only screen and (max-width: 1200px) {
+    .Story .Profile > img {
+      width: 20vw;
+      height: 20vw;
+
+    }
+}
