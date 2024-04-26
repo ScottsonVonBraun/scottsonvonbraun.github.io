@@ -213,6 +213,21 @@ a {
     }
 }
 
+.Story > img {
+    width: 8vw;
+    height: 8vw;
+    padding-right: 1vw;
+    aspect-ratio: 1 / 1 ;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Story > img {
+      width: 15vw;
+      height: 15vw;
+
+    }
+}
+
 .Story .Profile .Info{
     display: grid;
 }
