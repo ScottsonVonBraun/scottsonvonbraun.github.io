@@ -232,16 +232,23 @@ a {
     display: grid;
 }
 .Story .Profile > img{
-    width: 8vw;
-    height: 8vw;
+    width: 10vw;
+    height: 10vw;
     padding-right: 1vw;
     aspect-ratio: 1 / 1 ;
 
 }
 @media only screen and (max-width: 1200px) {
     .Story .Profile > img {
-      width: 20vw;
-      height: 20vw;
+      width: 25vw;
+      height: 25vw;
 
     }
+}
+
+summary {
+    padding: 0.5vw;
+}
+summary:hover {
+    color: #0077ff; 
 }
